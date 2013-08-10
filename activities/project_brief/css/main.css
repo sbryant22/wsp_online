@@ -1,0 +1,314 @@
+/*--Bryant, Samantha - Week 1 Project Analysis--*/
+
+/*----Document-----*/
+
+body{
+	margin: 0 auto;
+	max-width: 800px;
+	font: 75%/1.5em Arial, Helvetica, sans-serif;
+}
+
+#wrapper{
+	width: 760px;
+	margin: 0 auto;
+	background-color: #fff;
+	border: 10px solid #3a5068;
+	margin: 10px 0 10px 0;
+	padding: 0 10px 0 10px;
+}
+
+/*-------Header--------*/
+
+h1{ 
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+/*---------Site Intent Section------*/
+
+.site_intent{
+	width: 700px;
+	font: 25px bold Impact;
+	border-top: 2px solid #034d7c;
+	margin-left: 5px;
+	padding: 7px;
+}
+
+.indent{
+	text-indent: 10px;
+}
+
+/*--------Gallery-----------*/
+
+#gallery ul{
+	padding-left: 5px;
+	list-style: none;
+}
+
+#gallery li{
+	width: 100px;
+	float: left;
+	border: 3px solid #0484b3;
+	margin: 20px;
+}
+
+/*--------Competitive Analysis-------*/
+
+#competitive_analysis{
+	clear: both;
+	padding-top: 5px;
+}
+
+#competitive{
+	width: 700px;
+	font: 25px bold Impact;;
+	border-top: 2px solid #034d7c;
+	margin-left: 5px;
+	padding: 7px;
+}
+
+table{
+	float: left;
+	border-collapse: collapse;
+	border: 3px solid #fff;
+	background-color: #1c2e37;
+}
+
+th{
+	font: 1.3em/1.5 bold Tangerine, cursive;
+	text-align: center;
+	border: 1px solid #fff;
+	background-color: #000;
+	color: #fff;
+	padding: 0.5em;
+}
+
+td{
+	text-align: center;
+	border: 1px solid #fff;
+	padding: 0.5em;
+	color: #fff;
+}
+
+.third_row{
+	background-color: #3a5068;
+}
+	
+
+/*---------Target Audience-----------*/
+
+#audience{
+	width: 700px;
+	font: 25px bold Impact;
+	border-top: 2px solid #034d7c;
+	margin-left: 5px;
+	padding: 7px;
+}
+
+/*--------Martha Cunningham-----*/
+
+#martha_h3{
+	font: 17px bold Helevetica, sans-serif;
+	padding-top: 10px;
+}
+
+#martha{
+	width: 200px;
+	margin: auto;
+	border: 3px solid #0484b3;
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.background_mc{
+	float: left;
+	/*background-color: blue;*/
+	list-style: circle;
+}
+
+.demo_mc_title{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: -30px;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.demo_mc{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+.tech_mc_title{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: -30px;
+	margin-left: 20px;
+	padding-left: 10px;
+}
+	
+.tech_mc{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: 20px;
+	margin-left: 40px;
+	padding-left: 10px;
+}
+
+#martha_story{
+	clear: both;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+
+/*----------Ryan Smith--------*/
+
+#ryan_h3{
+	font: 17px bold Helevetica, sans-serif;
+	padding-top: 10px;
+}
+	
+#ryan{
+	width: 200px;
+	border: 3px solid #0484b3;
+	margin: 5px;
+}
+
+.background_rs{
+	float: left;
+	/*background-color: blue;*/
+	list-style: circle;
+}
+
+.demo_rs_title{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: -30px;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.demo_rs{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: 10px;
+	margin-left: 30px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+.tech_rs_title{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: -30px;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+	
+.tech_rs{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: 10px;
+	margin-left: 40px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#ryan_story{
+	clear: both;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+
+/*----------Keavy O'Malley-------*/
+
+#keavy_h3{
+	font: 17px bold Helevetica, sans-serif;
+	padding-top: 10px;
+}
+
+#keavy{
+	width: 200px;
+	border: 3px solid #0484b3;
+	margin: 5px;
+}
+
+.background_ko{
+	float: left;
+	/*background-color: blue;*/
+	list-style: circle;
+}
+
+.demo_ko_title{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: -30px;
+	margin-left: 30px;
+	padding-left: 10px;
+}
+
+.demo_ko{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: 10px;
+	margin-left: 50px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+}
+
+.tech_ko_title{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: -30px;
+	margin-left: 70px;
+	padding-left: 10px;
+}
+	
+.tech_ko{
+	float: left;
+	/*background-color: blue;*/
+	margin-top: -18px;
+	list-style: circle;
+	margin-top: 10px;
+	margin-left: 90px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+#keavy_story{
+	clear: both;
+	padding-bottom: 10px;
+}
+
+/*----------Footer-------------------*/
+
+footer{
+	text-align: center;
+}
